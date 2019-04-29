@@ -15,6 +15,7 @@
 		CC43350E210FF150006E13CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC43350D210FF150006E13CE /* main.m */; };
 		CC433518210FF150006E13CE /* CalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC433517210FF150006E13CE /* CalendarTests.m */; };
 		CC433523210FF150006E13CE /* CalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC433522210FF150006E13CE /* CalendarUITests.m */; };
+		CC43357321100128006E13CE /* DayUninterruptedlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC43357221100128006E13CE /* DayUninterruptedlyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CC43351E210FF150006E13CE /* CalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC433522210FF150006E13CE /* CalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarUITests.m; sourceTree = "<group>"; };
 		CC433524210FF150006E13CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC43357121100128006E13CE /* DayUninterruptedlyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayUninterruptedlyView.h; sourceTree = "<group>"; };
+		CC43357221100128006E13CE /* DayUninterruptedlyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DayUninterruptedlyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CC4334FF210FF14F006E13CE /* AppDelegate.m */,
 				CC433501210FF14F006E13CE /* ViewController.h */,
 				CC433502210FF14F006E13CE /* ViewController.m */,
+				CC43357121100128006E13CE /* DayUninterruptedlyView.h */,
+				CC43357221100128006E13CE /* DayUninterruptedlyView.m */,
 				CC433504210FF14F006E13CE /* Main.storyboard */,
 				CC433507210FF14F006E13CE /* Assets.xcassets */,
 				CC433509210FF14F006E13CE /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				CC433503210FF14F006E13CE /* ViewController.m in Sources */,
 				CC43350E210FF150006E13CE /* main.m in Sources */,
+				CC43357321100128006E13CE /* DayUninterruptedlyView.m in Sources */,
 				CC433500210FF14F006E13CE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
